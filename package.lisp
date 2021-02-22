@@ -1,4 +1,4 @@
-(defpackage #:savage
+(uiop:define-package #:savage
   (:use #:cl #:arrow-macros)
   (:export #:*svg*
            #:*width*
